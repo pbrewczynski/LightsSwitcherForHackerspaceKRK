@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <Button
+        android:id="@+id/corridor"
+        android:text="@string/corridor"
+        android:tag="corridor"
+        style="@style/SwitchButton"/>
+    <Button
+        android:id="@+id/hardroom"
+        android:text="@string/hardroom"
+        android:tag="hardroom"
+        style="@style/SwitchButton"/>
+    <Button
+        android:id="@+id/softroom"
+        android:text="@string/softroom"
+        android:tag="softroom"
+        style="@style/SwitchButton"/>
+    <Button
+        android:id="@+id/kitchen"
+        android:text="@string/kitchen"
+        android:tag="kitchen"
+        style="@style/SwitchButton"/>
+</LinearLayout>
